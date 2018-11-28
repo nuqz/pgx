@@ -9,9 +9,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/jackc/pgx/pgio"
-	"github.com/jackc/pgx/pgproto3"
-	"github.com/jackc/pgx/pgtype"
+	"github.com/nuqz/pgx/pgio"
+	"github.com/nuqz/pgx/pgproto3"
+	"github.com/nuqz/pgx/pgtype"
 )
 
 const (

@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/jackc/pgx"
-	"github.com/jackc/pgx/pgtype"
+	"github.com/nuqz/pgx"
+	"github.com/nuqz/pgx/pgtype"
 )
 
 func TestConnBeginBatch(t *testing.T) {

@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jackc/pgx"
+	"github.com/nuqz/pgx"
 	"github.com/pkg/errors"
 )
 

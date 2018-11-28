@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 
-	"github.com/jackc/pgx/pgio"
+	"github.com/nuqz/pgx/pgio"
 )
 
 type ParameterStatus struct {

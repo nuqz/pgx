@@ -1,5 +1,7 @@
-[![](https://godoc.org/github.com/jackc/pgx?status.svg)](https://godoc.org/github.com/jackc/pgx)
-[![Build Status](https://travis-ci.org/jackc/pgx.svg)](https://travis-ci.org/jackc/pgx)
+## CAUTION
+
+This repository is fork of [pgx](https://github.com/jackc/pgx) and used by me personally to store useful functions that are not accepted in the official repository.
+When release in official repository comes, this repository will be updated too.
 
 # pgx - PostgreSQL Driver and Toolkit
 
@@ -48,25 +50,25 @@ See this [gist](https://gist.github.com/jackc/4996e8648a0c59839bff644f49d6e434) 
 
 In addition to the native driver, pgx also includes a number of packages that provide additional functionality.
 
-## github.com/jackc/pgx/stdlib
+## github.com/nuqz/pgx/stdlib
 
 database/sql compatibility layer for pgx. pgx can be used as a normal database/sql driver, but at any time the native interface may be acquired for more performance or PostgreSQL specific functionality.
 
-## github.com/jackc/pgx/pgtype
+## github.com/nuqz/pgx/pgtype
 
 Approximately 60 PostgreSQL types are supported including uuid, hstore, json, bytea, numeric, interval, inet, and arrays. These types support database/sql interfaces and are usable even outside of pgx. They are fully tested in pgx and pq. They also support a higher performance interface when used with the pgx driver.
 
-## github.com/jackc/pgx/pgproto3
+## github.com/nuqz/pgx/pgproto3
 
 pgproto3 provides standalone encoding and decoding of the PostgreSQL v3 wire protocol. This is useful for implementing very low level PostgreSQL tooling.
 
-## github.com/jackc/pgx/pgmock
+## github.com/nuqz/pgx/pgmock
 
 pgmock offers the ability to create a server that mocks the PostgreSQL wire protocol. This is used internally to test pgx by purposely inducing unusual errors. pgproto3 and pgmock together provide most of the foundational tooling required to implement a PostgreSQL proxy or MitM (such as for a custom connection pooler).
 
 ## Documentation
 
-pgx includes extensive documentation in the godoc format. It is viewable online at [godoc.org](https://godoc.org/github.com/jackc/pgx).
+pgx includes extensive documentation in the godoc format. It is viewable online at [godoc.org](https://godoc.org/github.com/nuqz/pgx).
 
 ## Testing
 

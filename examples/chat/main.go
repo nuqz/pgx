@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/jackc/pgx"
+	"github.com/nuqz/pgx"
 )
 
 var pool *pgx.ConnPool
